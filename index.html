@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taste Book</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Taste Book</h1>
+
+  <form id="recipeForm">
+    <label for="recipeTitle"><b>Recipe Title:</b></label>
+    <input type="text" id="recipeTitle" placeholder="Enter recipe title" required><br>
+
+    <label for="ingredients"><b>Ingredients:</b></label>
+    <textarea id="ingredients" placeholder="Enter ingredients" required></textarea><br>
+
+    <label for="instructions"><b>Instructions:</b></label>
+    <textarea id="instructions" placeholder="Enter instructions" required></textarea><br>
+
+    <button type="submit">Add Recipe</button>
+  </form>
+  <div id="recipeList"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
